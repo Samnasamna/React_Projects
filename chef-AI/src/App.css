@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+/*Header Style*/
+
+.headContainer{
+    background: #1d2229;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:9px;
+    box-shadow: 2px 2px 5px rgba(113, 113, 117, 0.844);
+}
+.headContainer img{
+    width: 40px;
+}
+.headContainer h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+/*Main Content Style*/
+
+main{
+    padding: 40px 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+main form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+form input{
+    padding: 13px 16px;
+    flex-grow: 1;
+    border-radius:6px;
+    border: none;
+    background-color: rgba(210, 201, 201, 0.138);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.386);
+    min-width: 350px;
+    max-width: 400px;
+    font-family: "Poppins", serif;
+}
+form input::placeholder{
+    color: #232933c8;
+    font-size: 13.5px;
+}
+form button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+    background: #2c3440;
+    border: none;
+    box-shadow: 2px 2px 7px rgba(128, 128, 128, 0.747);
+    font-family: "Poppins", serif;
+    font-size: 14.5px;
+    
+}
+.itemContainer{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+.enteredItems{
+    padding: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    max-height: 30px;
+    border: none;
+    color: #111823c8;
+    font-size: 14.5px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    background: rgba(203, 200, 200, 0.173);
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.293);
+    
+}
+.enteredItems img{
+    max-width: 10.5px;
+}
+
+
+.getRecipe{
+    background: rgba(203, 200, 200, 0.142);
+    display: flex;
+    align-items: center;
+    padding: 44px;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 500px;
+    height: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.312);
+
+    p{
+        font-size: 12.5px;
+        color: grey;
+        margin-top: -9px;
+    }
+}
+section .getRecipe h1{
+    color: #232933;
+    font-size: 16.5px;
+    text-align: left;
+    font-weight: 500;
+}
+.getRecipe button{
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    background: #db553ad1;
+    box-shadow: 2px 2px 5px rgba(199, 103, 73, 0.575);
+    color: white;
+    font-size: 13.8px;
+    font-weight: 300;
+}
+
+.aiRecipe{
+    margin-top: 20px;
+    color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 680px;
+}
